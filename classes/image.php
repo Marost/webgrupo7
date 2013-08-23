@@ -14,7 +14,7 @@ session_write_close();
 
 // Verification Image Background Selection
 
-$bgs = array("../images/contact/verify/1.png","../images/contact/verify/2.png","../images/contact/verify/3.png");
+$bgs = array("../imagenes/contact/verify/1.png","../imagenes/contact/verify/2.png","../imagenes/contact/verify/3.png");
 $background = array_rand($bgs, 1);
 
 // Verification Image Variables
