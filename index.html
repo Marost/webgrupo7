@@ -4,17 +4,17 @@
 
     <!-- Meta
     ================================================== -->
-	<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="EKO - HTML5 One Page Template">
-	<meta name="author" content="LGLab">
+    <meta name="description" content="EKO - HTML5 One Page Template">
+    <meta name="author" content="LGLab">
     
     <title>Grupo 7</title>
     
     
     <!-- Mobile Specific Metas
     ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- CSS
     ================================================== -->
@@ -31,11 +31,11 @@
     
     
     <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="imagenes/icons/favicon.ico">
-	<link rel="apple-touch-icon" href="imagenes/icons/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="imagenes/icons/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="imagenes/icons/apple-touch-icon-114x114.png">
+    ================================================== -->
+    <link rel="shortcut icon" href="imagenes/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="imagenes/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imagenes/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imagenes/icons/apple-touch-icon-114x114.png">
       
 </head>
 
@@ -51,7 +51,7 @@
     Start Home page
     ///////////////
      -->
-	<section id="home">
+    <section id="home">
     
 
             
@@ -93,7 +93,7 @@
             
         <div class="clearfix"></div>
         
-	</section>
+    </section>
     <!--
     ///////////////
     End Home page
@@ -113,7 +113,7 @@
           <li><a href="#about">Nosotros</a></li>
           <li><a href="#products">Servicios</a></li>
           <li><a href="#portfolio">Staff</a></li>
-          <li><a href="#apps">Clientes</a></li>
+          <li><a href="#portfolio">Clientes</a></li>
           <li><a href="#contact">Contacto</a></li>
          </ul>
          
@@ -400,8 +400,8 @@
       
        
        <div class="clearfix"></div>
-	    
-	</section>
+        
+    </section>
     <!--
     ///////////////
     End About page
@@ -409,47 +409,57 @@
     -->
     
     
-	<!--
+    <!--
     ///////////////
     Start Portfolio page
     ///////////////
     -->
-  <section id="portfolio" class="">
+    <section id="portfolio" class="">
     
-      <div class="wrapper content" data-pattern="">
+        <div class="wrapper content" data-pattern="">
 
-      <div class="shapeTop">
-            <div class="top"></div>
-            <div class="bottom"></div>
-        </div>
+            <div class="shapeTop">
+                <div class="top"></div>
+                <div class="bottom"></div>
+            </div>
       
-          <div class="container">
+            <div class="container">
           
-          
+                <div class="one">
+            
+                    <header class="sectionHeader">
+                        <h1><span class="highlightColor">Clientes</span></h1>
+                        <p>Grupo 7 Consultorías y Publicaciones, es una empresa innovadora en comunicación integral, conformada por un grupo de profesionales con más de 20 años de experiencia en los diversos campos de la comunicación.</p>
+                        <p>Contamos con un staff altamente calificado que permite desarrollar productos editoriales y periodísticos en todas sus especialidades (televisión, radio, plataformas digitales y prensa escrita).</p>
+                    </header>
+                    
+                </div>
+
+                <div class="one separator row-seventy"></div>
             
 
             
           
-       </div><!--container-->
+            </div><!--container-->
        
        
 
-      </div><!--wrapper-->
+        </div><!--wrapper-->
       
       
-      <!--footer-->
-      <footer class="wrapper footer" id="apps">
-      
-      
+        <!--footer-->
+        <footer class="wrapper footer" id="apps">
 
 
-     </footer>
-     <!--//footer-->
+
+
+        </footer>
+        <!--//footer-->
       
        
-       <div class="clearfix"></div>
-	    
-	</section>
+        <div class="clearfix"></div>
+        
+    </section>
     <!--
     ///////////////
     End Portfolio page
@@ -478,23 +488,68 @@
             <div class="one">
             
                 <header class="sectionHeader">
-                  <h1><span class="highlightColor"></span></h1>
+                  <h1><span class="highlightColor">Contactenos</span></h1>
+                  <p>Grupo 7 Consultorías y Publicaciones, es una empresa innovadora en comunicación integral, conformada por un grupo de profesionales con más de 20 años de experiencia en los diversos campos de la comunicación.</p>
                 </header>
                 
             </div>
             
             <div class="one separator row-eighty"></div>
-            
-            
-  
+              
             <!--Contact details-->
+            <article class="onethird row">
             
+            
+               <h5>Ponte en contacto</h5>
+               <p>Si está buscando profesionales con amplia experiencia en la comunicación integral, el desarrollo editorial y el periodismo en general, no dude en ubicarnos.</p>
+               
+               <div class="separator row-ten"></div>
+
+               <h5>Nuestra oficina</h5>
+               <p>T&S Comunicadores SAC<br />
+               Jr. Andalucía 106 - Urb. Mayorazgo</p>
+               
+               <p>Teléfono: 955 667787<br />
+               RPM: *0077778<br />
+               Email: <a href="mailto:contactenos@grupo7peru.com">contactenos@grupo7peru.com</a>
+               </p>
+                
+            </article>
             <!--//Contact details-->
             
 
             
             <!--Contact form-->
+            <article class="twothird row contactForm">
+
+             <div id="message"></div>
+  
+              <form method="post" action="classes/contact.php" name="contactform" id="contactform">
+  
+              <fieldset>
+             
+              <input name="name" type="text" id="name" size="30" value="Nombre*" />
+  
+
+              <input name="email" type="text" id="email" size="30" value="Email*" />
+
+              <textarea name="comments" cols="40" rows="3" id="comments">Mensaje*</textarea>
+              
+              
+              <input type="submit" class="submit button normal reverted" id="submit" value="SUBMIT" />
+              
+              <p class="verifyText">Are you human?<span class="required">*</span></p>
+              <label for="verify" accesskey="V" id="verifyImage"><img src="classes/image.php" alt="Image verification"/></label>
+              <input name="verify" type="text" id="verify" size="6" value="" style="width: 50px;" /><br /><br />
+
+              </fieldset>
+  
+              </form>
+
+
             
+                
+            </article>
             <!--//Contact form-->
             
             
@@ -522,8 +577,8 @@
       </div><!--wrapper-->
       
       <div class="clearfix"></div>
-	    
-	</section>
+        
+    </section>
     <!--
     ///////////////
     End contact page
@@ -555,6 +610,6 @@
     
     
     
-	
+    
 </body>
 </html>
